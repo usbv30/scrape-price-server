@@ -1,0 +1,17 @@
+{
+  "name": "scrape-price-server",
+  "version": "1.0.0",
+  "description": "A headless scraping service for deliveryprice.cc using Puppeteer",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.8"
+  }
+}
